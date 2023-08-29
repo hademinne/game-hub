@@ -3,6 +3,7 @@ import useGames from "../hooks/useGames";
 import GameCard from "./GameCard.tsx";
 import GameCardSkeleton from "./GameCardSkeleton.tsx";
 import GameCardContainer from "./GameCardContainer.tsx";
+import GenreList from "./GenreList.tsx";
 
 const GameGrid = () => {
   const { games, error, isLoading } = useGames();
